@@ -8,7 +8,7 @@ public class PlanetTest {
 
     @Before
     public void  before() {
-        mars = new Planet("Mars", 950);
+        mars = new Planet("Mars", 908973);
     }
 
     @Test
@@ -18,7 +18,7 @@ public class PlanetTest {
 
     @Test
     public void hasSize(){
-        assertEquals(950, mars.getSize());
+        assertEquals(908973, mars.getSize());
     }
 
     @Test
